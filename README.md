@@ -7,7 +7,7 @@ Let’s start by defining what a portfolio website is. At its most basic form, a
 The purpose of this portfolio site is to showcase my skills, projects, work history, and to a certain degree my personality to potential employers, collaborators and clients. It needs to do this in a functional, well laid out, clear and concise manner.
 
 ## Link to Portfolio
-The published portfolio site can be found <a href = "https://faizanpotrick.github.io/Portfolio/">here.<a>
+The published portfolio site can be found <a href = "https://csi-catt-dmce.github.io/portfolio_/">here.<a>
 
 # Personal Portfolio 🔥
 
