@@ -49,7 +49,9 @@ The published portfolio site can be found <a href = "https://csi-catt-dmce.githu
 - **Option 2**
     - 👯 Clone this repo to your local machine.
 #### Step 2
-- **Build your code** 🔨🔨🔨
+- Build your code 🔨🔨🔨
+- No inline CSS
+- Edit in External CSS
 #### Step 3
 - 🔃 Create a new pull request.
 
