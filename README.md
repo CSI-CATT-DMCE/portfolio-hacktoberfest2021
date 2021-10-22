@@ -56,4 +56,6 @@ The published portfolio site can be found <a href = "https://csi-catt-dmce.githu
 - 🔃 Create a new pull request.
 
 
-
+## Maintainers
+- Gunja Shah @Gunja22
+- Faizan Potrick @FaizanPotrick
