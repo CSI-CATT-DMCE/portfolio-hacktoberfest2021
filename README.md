@@ -14,7 +14,7 @@ The published portfolio site can be found <a href = "https://csi-catt-dmce.githu
 ## Website Preview
 
 - Home page
-![1](https://user-images.githubusercontent.com/89718255/137478963-e0eec650-9cc9-4771-9cd2-d9a5320c1539.png)
+![image](https://user-images.githubusercontent.com/92462111/138445710-23d41acb-dd35-4834-9162-66f2cc17983b.png)
 - About page
 ![2](https://user-images.githubusercontent.com/89718255/137478977-2c14bde8-64e3-4917-b25c-d0a96a5601df.png)
 - Explore Section
