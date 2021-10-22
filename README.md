@@ -57,5 +57,5 @@ The published portfolio site can be found <a href = "https://csi-catt-dmce.githu
 
 
 ## Maintainers
-- Gunja Shah <a href = "https://github.com/Gunja22">@Gunja22<a>
-- Faizan Potrick <a href = "https://github.com/FaizanPotrick">@FaizanPotrick<a>
+-  <a href = "https://github.com/Gunja22">Gunja Shah<a>
+-  <a href = "https://github.com/FaizanPotrick">Faizan Potrick<a>
