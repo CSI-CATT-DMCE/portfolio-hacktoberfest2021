@@ -332,14 +332,21 @@ form p {
   }
   #footer {
     font-size: 30px;
-    height: 15vh;
+    height: 100px;
   }
   #footer p {
+    padding-top: 2rem;
     font-size: 15px;
   }
   form p {
     font-size: 15px;
   }
+}
+footer a:hover{
+  background-color: rgba(0, 5, 7, 0.5);
+  padding: 3rem;
+  border-radius: 2rem;
+  padding-top: 2rem;
 }
 @media screen and (max-width: 400px) {
   #home h1 {
@@ -347,7 +354,7 @@ form p {
   }
   #footer {
     font-size: 20px;
-    height: 10vh;
+    height: vh;
   }
   .fa {
     margin: 0px 10px;
