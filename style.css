@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -47,8 +48,10 @@ body {
   transition: color 0.3s ease;
 }
 .nav-ul li a:hover {
-  color: #6d9886;
+  color: #000000;
 }
+
+
 /* home styling */
 #home {
   display: flex;
@@ -204,7 +207,8 @@ body {
   transition: all 0.5s ease;
 }
 .card-text a:hover {
-  color: white;
+
+  color: #6d9886;
 }
 /* feedback styling */
 #feedback {
@@ -260,7 +264,8 @@ form p {
 }
 #submit:hover {
   background-color: #6d9886;
-  color: white;
+
+  color: #6d9886;
   border: 1px solid #6d9886;
 }
 /*footer/contact styling*/
@@ -355,4 +360,25 @@ form p {
   #footer p {
     font-size: 10px;
   }
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
