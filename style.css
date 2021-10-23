@@ -10,6 +10,10 @@ html {
 body {
   font-family: "Poppins", sans-serif;
 }
+
+ul {
+  margin-bottom: 0 !important;
+}
 /* header styling */
 #navbar {
   position: fixed;
@@ -49,6 +53,19 @@ body {
 .nav-ul li a:hover {
   color: #6d9886;
 }
+
+/* Mobile Nav */
+.offcanvas-body ul {
+  height: 80%;
+  padding-left: 0 !important;
+}
+
+.offcanvas-body ul li {
+  margin: 20px 0;
+  font-size: 1.7rem;
+}
+/* Mobile Nav ends */
+
 /* home styling */
 #home {
   display: flex;
