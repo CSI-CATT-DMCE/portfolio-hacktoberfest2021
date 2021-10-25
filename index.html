@@ -105,7 +105,7 @@
     </section>
     <!-- explore start -->
     <section id="explore">
-      <h1>Expolre</h1>
+      <h1>Explore</h1>
       <!-- projects start -->
       <div class="explore">
         <h2>Projects</h2>
@@ -180,11 +180,15 @@
         <input type="submit" name="MySubmit" id="submit" />
       </form>
     </section>
+
+        <!-- Adding a scroll up button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">ᐞ</button>
+
     <!-- footer/contact start -->
     <footer id="footer">
       <div>
         <a href="#" class="fa fa-instagram"></a>
-        <a href="#" class="fa fa-github"></a>
+        <a href="https://github.com/CSI-CATT-DMCE/portfolio-hacktoberfest2021" class="fa fa-github"></a>
         <a href="#" class="fa fa-linkedin"></a>
         <a href="#" class="fa fa-facebook"></a>
       </div>
@@ -210,6 +214,23 @@
       };
 
       var typed = new Typed(".welcome", options);
+      //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+       if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+        mybutton.style.display = "block";
+        } else {
+         mybutton.style.display = "none";
+        }
+      }
+
+    function topFunction() {
+       document.body.scrollTop = 0; 
+       document.documentElement.scrollTop = 0; 
+      }
     </script>
   </body>
 </html>
