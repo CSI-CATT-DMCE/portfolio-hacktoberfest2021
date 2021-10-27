@@ -86,6 +86,14 @@
     </nav>
     <!-- home start -->
     <section id="home">
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+      >
+        <source src="images/bgvideo.mp4" type="video/mp4" />
+      </video>
       <div class="" style="height: 80px">
         <h1 class="welcome">WELCOME</h1>
       </div>
@@ -181,8 +189,8 @@
       </form>
     </section>
 
-        <!-- Adding a scroll up button -->
-        <button onclick="topFunction()" id="myBtn" title="Go to top">ᐞ</button>
+    <!-- Adding a scroll up button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">ᐞ</button>
 
     <!-- footer/contact start -->
     <footer id="footer">
@@ -276,21 +284,26 @@
 
       var typed = new Typed(".welcome", options);
       //Get the button:
-    mybutton = document.getElementById("myBtn");
+      mybutton = document.getElementById("myBtn");
 
-    window.onscroll = function() {scrollFunction()};
+      window.onscroll = function () {
+        scrollFunction();
+      };
 
-    function scrollFunction() {
-       if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
-        mybutton.style.display = "block";
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 5 ||
+          document.documentElement.scrollTop > 5
+        ) {
+          mybutton.style.display = "block";
         } else {
-         mybutton.style.display = "none";
+          mybutton.style.display = "none";
         }
       }
 
-    function topFunction() {
-       document.body.scrollTop = 0; 
-       document.documentElement.scrollTop = 0; 
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
       }
     </script>
   </body>

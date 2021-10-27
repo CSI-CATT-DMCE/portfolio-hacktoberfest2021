@@ -72,11 +72,21 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: url("images/home-bg.jpg") no-repeat center;
+  /*background: url("images/bgvideo.mp4") no-repeat center;*/
   height: 100vh;
   color: #fff;
   background-size: cover;
   background-attachment: fixed;
+}
+#home video {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: -2;
+  object-fit: cover;
 }
 #home h1 {
   font-size: 70px;
@@ -332,7 +342,6 @@ footer .social a {
   font-size: 1.9rem;
 }
 
-
 footer .container-fluid {
   background-color: #6d9886;
 }
@@ -353,24 +362,29 @@ footer .fa:hover {
   font-size: 1.2rem !important;
 }
 #myBtn {
-  display: none; 
-  position: fixed; 
-  bottom: 40px; 
+  display: none;
+  position: fixed;
+  bottom: 40px;
   right: 30px;
-  z-index: 204; 
+  z-index: 204;
   border: none;
-  outline: none; 
-  background-color: rgba(82, 126, 105, 0.721); 
-  color: rgb(0, 0, 0); 
+  outline: none;
+  background-color: rgba(82, 126, 105, 0.721);
+  color: rgb(0, 0, 0);
   cursor: pointer;
-  padding: 15px; 
-  border-radius: 10px; 
-  font-size: 30px; 
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 30px;
   animation-duration: 1s;
 }
 
 #myBtn:hover {
-  background-color: rgba(225, 224, 224, 0.694); /* Add a dark-grey background on hover */
+  background-color: rgba(
+    225,
+    224,
+    224,
+    0.694
+  ); /* Add a dark-grey background on hover */
 }
 /*Media Qurey*/
 @media screen and (max-width: 1000px) {
