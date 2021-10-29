@@ -284,7 +284,8 @@
 
       var typed = new Typed(".welcome", options);
       //Get the button:
-      mybutton = document.getElementById("myBtn");
+      let mybutton = document.getElementById("myBtn");
+      let nav = document.getElementById("navbar");
 
       window.onscroll = function () {
         scrollFunction();
@@ -292,12 +293,17 @@
 
       function scrollFunction() {
         if (
-          document.body.scrollTop > 5 ||
-          document.documentElement.scrollTop > 5
+          document.body.scrollTop > 600 ||
+          document.documentElement.scrollTop > 600
         ) {
           mybutton.style.display = "block";
+          nav.style.backgroundColor = "#6d9886";
+          nav.style.boxShadow =
+            "0px 0.5px 2.4px rgba(0, 0, 0, 0.081),0px 3.7px 6.6px rgba(0, 0, 0, 0.119), 0px 40px 57px rgba(0, 0, 0, 0.2)";
         } else {
           mybutton.style.display = "none";
+          nav.style.backgroundColor = "#6d988600";
+          nav.style.boxShadow = "none";
         }
       }
 
